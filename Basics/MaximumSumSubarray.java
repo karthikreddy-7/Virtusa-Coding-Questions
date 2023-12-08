@@ -36,5 +36,6 @@ public class MaximumSumSubarray {
             }
         }
         System.out.println(maxsum);
+        sc.close();
     }
 }
