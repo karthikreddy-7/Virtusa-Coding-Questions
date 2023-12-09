@@ -13,5 +13,6 @@ public class FindingIthBit {
         int i = sc.nextInt();
         int mask = 1 << i;
         System.out.println("the Ith bit is " + ((n & mask) != 0 ? 1 : 0));
+        sc.close();
     }
 }
